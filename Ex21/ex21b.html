@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 5px solid black;
+            margin: 0px;
+            padding: 5px;
+            
+        }
+        header{
+            background-color: aliceblue;
+            border: 5px solid black;
+            border-radius: 8px;
+            padding: 10px 0px 10px 0px;
+            margin: 0px;
+            
+        }
+        h1 {
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(149, 149, 221); 
+            text-align: center;
+            margin: 0px;
+            padding: 3px;
+           
+        }
+        nav > a {
+            background-color: rgb(139, 139, 214);
+            text-decoration: none;
+            list-style: circle;
+            color: black;
+            margin-right: 40px;
+            padding: 3px;
+        }
+        nav > a:hover {
+             text-decoration: underline;
+             text-shadow: 2px 2px 2px rgb(60, 60, 190);
+        }
+        h2 {
+            background-color: rgb(149, 149, 221);
+            text-align: center;
+            border-color: 1px solid black;
+        }
+        article{
+            background-color: aliceblue;
+            border: 3px solid black;
+            border-radius: 20px;
+            
+            margin: 5px;
+        }
+        article > aside {
+             background-color: black;
+             color: white;
+             padding-left: 5px;
+             border-radius: 0px 0px 10px 10px;
+        }
+        p{ 
+            
+            margin: 3px;
+            padding: 2px;
+        }
+        footer {
+             background-color: black;
+             color: white;
+             text-align: center;
+             padding: 5px;
+             margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+              <section id="noticias">
+                <article>
+                    <h2>Notícia de hoje</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto commodi, vero itaque omnis aut iure maxime dignissimos mollitia impedit nulla quidem voluptatibus nemo cupiditate fuga sed deleniti quam repellendus!</p>
+                    <aside>Artigo escrito por fulano 1</aside>
+                </article>
+                <article>
+                     <h2>Noticia de ontem</h2>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eligendi quis veritatis at blanditiis cumque deleniti eveniet sint, facere iste ab doloribus autem fugit, incidunt aspernatur optio amet. Itaque, facilis.</p>
+                </article>
+              </section>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por: fulaninho 2</p>
+    </footer>
+</body>
+</html>
